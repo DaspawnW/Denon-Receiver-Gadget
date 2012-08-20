@@ -1,0 +1,18 @@
+﻿<UserControl x:Class="SilverlightGadgetSettings.Page"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" 
+    Width="250" Height="119" SizeChanged="UserControl_SizeChanged" xmlns:sdk="http://schemas.microsoft.com/winfx/2006/xaml/presentation/sdk" Loaded="UserControl_Loaded_1">
+    <Grid x:Name="LayoutRoot" Background="White" Height="119">
+        <TextBlock Text="Put your settings here." Margin="0,0,0,197" />
+        <TextBox Height="26" HorizontalAlignment="Left" Margin="12,31,0,0" Name="ip1tb" VerticalAlignment="Top" Width="40" MaxLength="3" />
+        <sdk:Label Height="28" HorizontalAlignment="Left" Margin="12,12,0,0" Name="IPLabel" VerticalAlignment="Top" Width="120" Content="IP-Adresse:" />
+        <sdk:Label Height="28" HorizontalAlignment="Left" Margin="58,44,0,0" Name="label1" VerticalAlignment="Top" Width="11" Content="." />
+        <TextBox Height="26" HorizontalAlignment="Left" Margin="68,31,0,0" Name="ip2tb" VerticalAlignment="Top" Width="40" MaxLength="3" />
+        <sdk:Label Content="." Height="28" HorizontalAlignment="Left" Margin="114,44,0,0" Name="label2" VerticalAlignment="Top" Width="11" />
+        <TextBox Height="26" HorizontalAlignment="Left" Margin="124,31,0,0" Name="ip3tb" VerticalAlignment="Top" Width="40" MaxLength="3" />
+        <sdk:Label Content="." Height="28" HorizontalAlignment="Left" Margin="170,44,0,0" Name="label3" VerticalAlignment="Top" Width="11" />
+        <TextBox Height="26" HorizontalAlignment="Left" Margin="180,31,0,0" Name="ip4tb" VerticalAlignment="Top" Width="40" MaxLength="3" />
+        <sdk:Label Height="28" HorizontalAlignment="Left" Margin="12,68,0,0" Name="TimerLabel" VerticalAlignment="Top" Width="120" Content="Radioliedtimer [s]:" />
+        <TextBox Height="26" HorizontalAlignment="Left" Margin="12,86,0,0" MaxLength="3" Name="timerTB" VerticalAlignment="Top" Width="40" />
+    </Grid>
+</UserControl>

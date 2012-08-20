@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <StartPageUrl>
+          </StartPageUrl>
+          <StartAction>CurrentPage</StartAction>
+          <AspNetDebugging>True</AspNetDebugging>
+          <SilverlightDebugging>False</SilverlightDebugging>
+          <NativeDebugging>False</NativeDebugging>
+          <SQLDebugging>False</SQLDebugging>
+          <ExternalProgram>
+          </ExternalProgram>
+          <StartExternalURL>
+          </StartExternalURL>
+          <StartCmdLineArguments>
+          </StartCmdLineArguments>
+          <StartWorkingDirectory>
+          </StartWorkingDirectory>
+          <EnableENC>False</EnableENC>
+          <AlwaysStartWebServerOnDebug>True</AlwaysStartWebServerOnDebug>
+          <ProjectOutputReferences>
+            <Ref Project="{d63bb1c4-93ca-4f04-b91c-a898562edf96}" Folder="ClientBin">SilverlightGadgetDocked.xap</Ref>
+            <Ref Project="{ef9b6f5c-8d6c-41f9-b806-12dc9c13ff51}" Folder="ClientBin">SilverlightGadgetUnDocked.xap</Ref>
+            <Ref Project="{030540ca-c094-4c3c-a69b-15c1292f0e18}" Folder="ClientBin">SilverlightGadgetFlyout.xap</Ref>
+            <Ref Project="{851be76c-3079-433c-b5ab-d048e78b7320}" Folder="ClientBin">SilverlightGadgetSettings.xap</Ref>
+          </ProjectOutputReferences>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>
